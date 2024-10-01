@@ -1,0 +1,87 @@
+/* General App Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #2d2e32;
+    margin-top: 20px;
+  }
+  
+  h2 {
+    color: #4f5d75;
+  }
+  
+  .App {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    background-color: #ef8354;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #d26941;
+  }
+  
+  /* Activity Tracker */
+  input {
+    width: calc(100% - 22px);
+    padding: 8px 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    background-color: #f4f4f9;
+    margin-bottom: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  li:nth-child(odd) {
+    background-color: #e2e2ea;
+  }
+  
+  /* Statistics Display */
+  .stats {
+    background-color: #4f5d75;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .stats p {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  /* Workout Plan */
+  ul li {
+    color: #2d2e32;
+  }
+
+  
